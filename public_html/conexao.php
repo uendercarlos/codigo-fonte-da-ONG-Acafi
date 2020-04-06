@@ -1,9 +1,9 @@
 <?php
 
 	$servidor = "localhost";
-	$usuario = "id9734952_acafi";
-	$senha = "Tads.123";
-	$dbname = "id9734952_acafi";
+	$usuario = "seu usuario";
+	$senha = "sua senha";
+	$dbname = "seu banco";
 
 	//criar conexao
 	$conn = mysqli_connect($servidor, $usuario, $senha, $dbname) or die ("Erro na conexão com banco de dados");
